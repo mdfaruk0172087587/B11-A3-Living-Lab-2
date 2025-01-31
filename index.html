@@ -47,62 +47,37 @@
     <!-- header section -->
    <section class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
     <header class="md:container md:mx-auto"> 
-        <!-- navbar stard -->
-<nav class="">
-    <div class="navbar bg-base-100">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
-            </div>
-            <ul
-              tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-              <li><a>Item 1</a></li>
-              <li>
-                <a>Parent</a>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </li>
-              <li><a>Item 3</a></li>
-            </ul>
-          </div>
-          <a class="btn btn-ghost text-xl">daisyUI</a>
+        
+<nav class="mt-2 mb-28 flex items-center p-2 justify-between md:container md:mx-auto lg:border-none border-b-2 border-[#179800]">
+    <!-- navbar stard -->
+     <nav class="flex-1">
+      <img src="c2-assets/logo-header.png" alt="">
+     </nav>
+   
+    
+      <!-- navbar midel -->
+      <nav class="lg:block hidden flex flex-1 items-center font-normal text-xl text-[#111111] ">
+        <ul class="flex gap-6">
+          <li><a href="">Product</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contact us</a></li>
+        </ul>
+      </nav>
+      <!-- navbar end -->
+      <nav class="hidden lg:block lg:flex flex-1 gap-6 items-center">
+        <i class="fa-solid fa-magnifying-glass  text-3xl"></i>
+        <i class="fa-solid fa-cart-shopping text-3xl"></i>
+        <div>
+          <button class="btn btn-outline font-normal text-xl text-[#111111]">Login</button>
         </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li><a>Item 1</a></li>
-            <li>
-              <details>
-                <summary>Parent</summary>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </details>
-            </li>
-            <li><a>Item 3</a></li>
-          </ul>
+        <div>
+          <button class="btn btn-outline bg-[#179800] font-normal text-xl text-white">Register</button>
         </div>
-        <div class="navbar-end">
-          <a class="btn">Button</a>
-        </div>
-      </div>
+      </nav>
+      <i class="fa-solid fa-bars text-3xl block flex lg:hidden"></i>
+
 </nav>
-<!-- navbar end -->
+
     <!-- banner stard -->
  <div class="space-y-4 md:space-y-24 lg:space-y-24">
     <!-- banner text stard -->
